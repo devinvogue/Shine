@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Pick Me App</title>
+<style>
+
+header, nav, footer{
+	display: block;
+
+}
+body{
+	background-image: url('kids.jpg');
+	background-repeat: round;
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	margin:0px;
+	
+}
+
+.wrapper{
+	width:900px;
+	height:700px;
+	background-color: silver;
+	border: 2px solid purple;
+	position: absolute;
+	top:0;
+	left: 225px;
+
+}
+header{
+	height: 60px;
+	border: 2px dotted white;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+}
+
+h1{
+	height: 20px;
+	margin: 0px;
+	text-align: center;
+	color: red;
+}
+
+h2{
+	text-align: center;
+	margin-top:60px;
+}
+
+.h1{
+	text-align: left;
+	color:black;
+	margin:35px;
+}
+
+nav,footer{
+	clear: both;
+	background-color: white;
+	color: orange;
+	height:20px;
+}
+
+footer{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	left:0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	color:black;
+	text-decoration: none;
+	padding: 10px;
+	margin:5px;
+}
+
+nav li a:hover{
+	background-color: grey;
+}
+
+ a.current{
+ 	background-color: yellow;
+ }
+
+@keyframes example{ 
+		0% { background-image:url("kids.jpg"); }
+		25% { background-color: orange; }
+		50% {background-color: white;}
+		100% {background-color: purple;}
+	}
+
+table{
+	margin: 50px;
+	background-color: white;
+}
+
+img{
+	height:150px;
+	width:150px;
+	float:left;
+	margin:0;
+
+}
+
+
+</style>
+</head>
+
+
+<body>
+	<div class= "wrapper">
+		<header>
+			<h1> Pick Me App</h1>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="" class="current">Payment</a></li>
+					<li><a href="">Settings</a></li>
+					<li><a href="">Help</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<h1 class='h1'> PAYMENT</h1>
+
+		<table border=1 height='500' width='500'>
+	<tr>
+		<td>
+			<img src= 'cash.png'>
+
+			<h2>Cash</h2>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<img src='mobilemoney.jpg'>
+			<h2> Mobile Money/Vodafone Cash/Airtel Money/ Tigo Cash</h2>
+		</td>
+	</tr>
+		
+		<tr>
+			<td>
+				<img src='visa.png'>
+				<h2>Visa </h2>
+			</td>
+	</tr>
+</table>
+
+	</div>
+</body>
+</html>

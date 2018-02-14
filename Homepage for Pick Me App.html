@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Pick Me App</title>
+<style>
+
+header, nav, footer{
+	display: block;
+
+}
+body{
+	background-image: url('kids.jpg');
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	margin:0px;
+	
+}
+
+.wrapper{
+	width:900px;
+	height:700px;
+	background-image:url("googleMaps.png");/*an actual map will replace this */
+	border: 2px solid purple;
+	position: absolute;
+	top:0;
+	left: 225px;
+
+}
+header{
+	height: 60px;
+	border: 2px dotted white;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+}
+
+h1{
+	height: 20px;
+	margin: 0px;
+	text-align: center;
+	color: red;
+}
+
+nav,footer{
+	clear: both;
+	background-color: white;
+	color: orange;
+	height:20px;
+}
+
+footer{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	left:0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	color:black;
+	text-decoration: none;
+	padding: 10px;
+	margin:5px;
+}
+
+nav li a:hover{
+	background-color: grey;
+}
+
+ a.current{
+ 	background-color: yellow;
+ }
+
+.box{
+	border:1px solid grey ;
+	background-color: silver;
+	color:black;
+	height:60px ;
+	width:100px;
+	position: absolute;
+}
+
+.box p{
+	font-weight: 500;
+	color: white;
+}
+
+.box1{
+	top: 90px;
+}
+
+.box2{
+	bottom: 90px;
+}
+
+.box3{
+	right: 0px;
+	bottom: 90px;
+}
+
+table{
+	border: 1px dotted grey;
+	height: 250px;
+	width: 250px;
+}
+
+h2{
+	text-align: center;
+	padding:5px;
+	color: black;
+}
+
+@keyframes example{
+		0% { background-image:url("kids.jpg"); }
+		25% { background-color: orange; }
+		50% {background-color: white;}
+		100% {background-color: purple;}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+	<div class= "wrapper">
+		<header>
+			<h1> Pick Me App</h1>
+			<nav>
+				<ul>
+					<li><a href=""class="current">Home</a></li>
+					<li><a href="payment.html">Payment</a></li>
+					<li><a href="">Settings</a></li>
+					<li><a href="">Help</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+<div class="box box1">
+
+	<p> Parent's and child details</p>
+</div>
+
+<div class="box box2">
+
+	<p> Parent's and child details</p>
+</div>
+
+<div class="box box3">
+
+	<p> Parent's and child details</p>
+</div>
+
+
+
+<footer>
+&copy;Shine 2018</footer>
+
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
