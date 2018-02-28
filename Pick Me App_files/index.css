@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	font-family: Ubuntu, sans-serif;
+	max-width: 100%
+	max-height:100%;
+	/*background-image: url("assets/imgs/images4.jfif");*/
+}
+#navbar{
+	margin:0;
+	color: lightblue;
+}
+
+
+button{
+	background-color: blue;
+	border-radius: 10px;
+}
+
+.container-fluid{
+	width: 100%;
+	height:100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top:0px;
+  background-image: url("assets/imgs/images4.jfif");
+}
+.top{
+	margin-top:25px;
+}
+
+
+/*.container-img{
+	;
+  background-repeat: no-repeat;
+  background-position: bottom center*/
+}
+img{
+	max-width:80%;
+	justify-content: center;
+	align-items:center;
+}	
+
+
+h2{
+
+	margin-left: 40%
+	margin-top:30px;
+	font-family: 'Kaushan Script', cursive;
+}
